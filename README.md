@@ -6,6 +6,16 @@ Very often I need a boilerplate to sketch out a UI or app idea.
 
 I wanted something very minimal but ready to produce a static React app.
 
+## Dependencies
+
+- React
+- Material UI
+
+## To be added
+
+- React Router
+- MobX / Redux
+
 ## Changelog
 
 - 28 Dec 2018
