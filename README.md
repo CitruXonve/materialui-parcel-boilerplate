@@ -1,13 +1,21 @@
-# Parcel example
+# Material UI + Parcel boilerplate
+
+## What is this
+
+Very often I need a boilerplate to sketch out a UI or app idea.
+
+I wanted something very minimal but ready to produce a static React app.
+
+## Changelog
+
+- 28 Dec 2018
+  The initial code is from the Material UI parcel example.
+  I added an eslintrc but not totally happy about the config.
+
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
-
-```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/parcel
-cd parcel
-```
+Download the boilerplate [or clone the repo](https://github.com/fibasile/materialui-parcel-boilerplate):
 
 Install it and run:
 
@@ -16,6 +24,7 @@ npm install
 npm run start
 ```
 
-## The idea behind the example
+## Related Projects
 
-[Parcel](https://github.com/parcel-bundler/parcel) is a Blazing fast, zero configuration web application bundler.
+- [Material UI](https://github.com/mui-org/material-ui)
+- [Parcel](https://github.com/parcel-bundler/parcel) is a Blazing fast, zero configuration web application bundler.
