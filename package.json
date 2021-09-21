@@ -1,32 +1,26 @@
 {
-  "name": "parcel",
-  "version": "3.0.0",
-  "private": true,
-  "dependencies": {
-    "@babel/preset-env": "^7.15.6",
-    "@babel/preset-react": "^7.14.5",
-    "@material-ui/core": "latest",
-    "prop-types": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@babel/plugin-proposal-class-properties": "^7.14.5",
-    "@babel/plugin-syntax-jsx": "^7.14.5",
-    "@parcel/transformer-js": "^2.0.0-alpha.3",
-    "@parcel/transformer-raw": "^2.0.0-alpha.3",
-    "@parcel/transformer-react-refresh-wrap": "^2.0.0-alpha.3",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "eslint": "^5.11.1",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.12.0",
-    "parcel": "^2.0.0-rc.0"
-  }
+    "name": "mui-and-parcel",
+    "version": "1.1.0",
+    "description": "A minified solution to make Material UI and Parcel work together",
+    "private": true,
+    "scripts": {
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "author": "CitruXonve",
+    "license": "MIT",
+    "dependencies": {
+        "@emotion/react": "^11.4.1",
+        "@emotion/styled": "^11.3.0",
+        "@material-ui/core": "^4.12.3",
+        "@mui/material": "^5.0.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/preset-env": "^7.15.6",
+        "@babel/preset-react": "^7.14.5",
+        "parcel": "^2.0.0-rc.0"
+    }
 }

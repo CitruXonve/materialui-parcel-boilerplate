@@ -1,13 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from '@material-ui/core/Button';
-import Dialog from '@material-ui/core/Dialog';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogActions from '@material-ui/core/DialogActions';
-import Typography from '@material-ui/core/Typography';
-import { withStyles } from '@material-ui/core/styles';
+import { Button, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, Typography, withStyles } from '@material-ui/core';
 import withRoot from '../withRoot';
 
 const styles = theme => ({
@@ -18,7 +11,7 @@ const styles = theme => ({
 });
 
 class Index extends React.Component {
-   state = {
+  state = {
     open: false,
   };
 
@@ -55,7 +48,7 @@ class Index extends React.Component {
           Material-UI
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
-          example project
+          Light-weighted package works well
         </Typography>
         <Button variant="contained" color="secondary" onClick={this.handleClick}>
           Super Secret
